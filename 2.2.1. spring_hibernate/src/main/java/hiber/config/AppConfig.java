@@ -57,8 +57,5 @@ public class AppConfig {
       return transactionManager;
    }
 
-//   @Bean
-//   public static Car getNeedle (User user) {
-//      return new Car;
-   }
+
 

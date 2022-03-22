@@ -69,11 +69,17 @@ public class Car {
         return Objects.hash(model, series);
     }
 
-    public String toString(){
+    @Override
+    public String toString() {
         return "Car{" +
-                "model='" + model + '\'' +
+                "user=" + user +
+                ", id=" + id +
+                ", model='" + model + '\'' +
                 ", series=" + series +
                 '}';
     }
+
+
 }
+
 
